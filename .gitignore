@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm & VS Code
+.idea/
+.vscode/
+
+# Environment variables / secret config
+*.env
+config/config.cfg
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Test cache
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# MyPy and Pyre type checkers
+.mypy_cache/
+.pyre/
+
+# Flask cache
+instance/
+*.db
+
+# Others
+*.sqlite3
+*.bak
+*.tmp
+*.swp
